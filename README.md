@@ -25,6 +25,8 @@ salary|The employee's salary (U.S. dollars)
 
 ### Initial EDA and data cleaning
 
-In this dataset, there are 14,999 rows, 10 columns, no missing values, and 3008 duplicates (~20% of the data). 
-All the misspelled variable names were corrected and all column names were converted into lower case and standardized in snake_case.
+- In this dataset, there are 14,999 rows, 10 columns, no missing values, and 3008 duplicates (~20% of the data). 
+- All the misspelled variable names were corrected and all column names were converted into lower case and standardized in snake_case.   
+
+![image](https://github.com/Pythode7/Employee-retention-prediction/assets/98425039/79424bba-6d29-460f-accc-11994acf67d7)
 
