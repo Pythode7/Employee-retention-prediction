@@ -92,7 +92,7 @@ Analysis reveals a correlation between longer work hours and higher departure ra
    - Employee satisfaction data may be incomplete, hindering definitive links to departures.
    - Average monthly hours might be skewed by pre-departure changes in employee work patterns.
 
-#### Evaluation scores for
+#### Evaluation scores for models
 
 ||Model|Precision|Recall|F1|Accuracy|AUC|
   |---|---|---|---|---|---|---|
@@ -100,8 +100,64 @@ Analysis reveals a correlation between longer work hours and higher departure ra
 |1|	decision tree1 test|	0.914552|	0.916949|	0.915707|	0.971978|	0.969819|
 |2|	random forest1 test|	0.964211|	0.919679|	0.941418|	0.980987|	0.956439|
 |3|	decision tree2 test|	0.783877|	0.917671|	0.845513|	0.944296|	0.933635|
-|4|	random forest2 test|	0.870406|	0.903614|	0.886700|	0.961641|	0.938407|
+**|4|	random forest2 test|	0.870406|	0.903614|	0.886700|	0.961641|	0.938407|**
 
-  
+All the scores for decision tree2 and random forest2 fell as fewer features were taken into account in this round of the model. Still, the scores are very good. Finally, random forest2 was selected as the champion.
+
+**Confusion matrix for the final model**   
+
+![image](https://github.com/Pythode7/Employee-retention-prediction/assets/98425039/7969e3ea-47d8-4d41-9817-1a44b61c19e5)   
+
+The model prioritizes identifying potential churn (at-risk employees), leading to more false positives (flagging employees who won't actually leave). This requires further investigation to confirm true risk.   
+
+**Decision tree splits**   
+
+![image](https://github.com/Pythode7/Employee-retention-prediction/assets/98425039/e2538e1e-0276-448a-a7c7-cee8cc8fa85b)   
+
+**Decision tree feature importance** 
+
+![image](https://github.com/Pythode7/Employee-retention-prediction/assets/98425039/75292a95-94f5-455a-9721-3e9efdb9707d)
+
+**Random forest feature importance**   
+
+![image](https://github.com/Pythode7/Employee-retention-prediction/assets/98425039/b90978f8-208e-4062-9aad-b55920cc8476)   
+
+_Top Features for Predicting Employee Churn:_
+
+- The random forest model identifies last_evaluation, number_project, tenure, and overworked as the most important features for predicting employee departures ("left").
+- These features are consistent with the decision tree model, suggesting strong agreement on the key factors influencing churn.
+
+### Summary and conclusion   
+
+#### summary of model results    
+
+**Logistic Regression**
+
+The logistic regression model achieved high accuracy (83%) and balanced metrics (precision: 80%, recall: 83%, F1-score: 80%) on the test set, indicating its effectiveness in predicting employee departures.
+
+**Tree-based Machine Learning**
+
+- _Decision Tree_: Achieved strong performance with AUC of 93.8% and balanced metrics (precision: 87.0%, recall: 90.4%, F1-score: 88.7%, accuracy: 96.2%).
+- _Random Forest_: Outperformed the decision tree model modestly, suggesting both models are effective but Random Forest might be slightly better suited for this specific task.
+
+#### Conclusion and Recommendations   
+
+The analysis of employee departures suggests potential overwork and dissatisfaction as contributing factors. Here are actionable recommendations to improve retention:
+
+**Workload Management:**
+
+- Project Limits: Implement a cap on the number of projects an employee can manage concurrently.
+- Overtime Policy: Clearly define expectations around overtime, including compensation and limitations (if applicable).
+- Work-Life Balance: Promote healthy work-life balance through clear communication and initiatives.   
+
+**Employee Engagement:**
+
+- Tenure Review: Investigate the reasons behind dissatisfaction among four-year employees. Consider targeted incentives or career development opportunities for this group.
+- Reward Structure: Revise the reward system to value contributions and effort, not just long hours.
+- Open Communication: Foster open communication by holding company-wide and team-specific discussions about workload, expectations, and work culture.
+
+**Performance Evaluation:**   
+
+- Balanced Evaluation: Ensure performance evaluations consider multiple factors beyond just work hours. Recognize valuable contributions regardless of time spent.
 
 
