@@ -8,7 +8,7 @@ The goals in this project are to analyze the data collected by the HR department
 
 If we can predict employees likely to quit, it might be possible to identify factors that contribute to their leaving. Because it is time-consuming and expensive to find, interview, and hire new employees, increasing employee retention will be beneficial to the company.
 
-## HR dataset
+### HR dataset
 
 Variable  |Description |
 -----|-----| 
@@ -74,7 +74,25 @@ _**Observations:**_
 - Promotion and Retention: Few employees got promoted and those who promoted in the last five years have very low turnover, suggesting promotion is a potential factor in employee retention. These might explain why employees who have worked for 5-6 years with high satisfaction left the company.
 4. Long Hours and Departures: Employees who worked the most hours were rarely promoted and all departing employees belonged to this group. This suggests a possible link between overwork and employee dissatisfaction leading to departures.
 
+#### Insights   
+Analysis reveals a correlation between longer work hours and higher departure rates. Additionally, employees who left often managed multiple projects. These observations suggest a possible risk of burnout among employees with heavy workloads. The data shows a lower turnover rate among employees with longer tenure (more than six years).   
 
+### Models building and evaluatioin   
+
+#### Logistic Regression   
+**Feature engeering and model assumption test**   
+- Encode the `salary` column as an ordinal numeric category
+- Dummy encode the `department` column
+- Remove the outliers that were identified earlier since logistic regression is quite sensitive to outliers
+- Heatmap showed no severe multicolliniearity among the selected features
+
+#### Tree-based Models: Decision Tree, Random Forest
+- Construct a decision tree model and a random forest model and set up cross-validated grid-search to exhuastively search for the best model parameters.
+- Feature engineering was applied to reduce the chance of data leakage:
+   - Employee satisfaction data may be incomplete, hindering definitive links to departures.
+   - Average monthly hours might be skewed by pre-departure changes in employee work patterns.
+
+#### Evaluation scores for
 
 
   
