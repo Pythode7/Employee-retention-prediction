@@ -94,12 +94,10 @@ Analysis reveals a correlation between longer work hours and higher departure ra
 
 #### Evaluation scores for
 
-		|---|Model|Precision|Recall|F1|Accuracy|AUC|
+|---|Model|Precision|Recall|F1|Accuracy|AUC|
   |---|---|---|---|---|---|---|
 |0|Logistic Regression|0.861520|0.932788|0.895739|0.819484|0.882470|
-1|	decision tree1 test|	0.914552|	0.916949|	0.915707|	0.971978|	0.969819|
-2|	random forest1 test|	0.964211|	0.919679|	0.941418|	0.980987|	0.956439|
-3|	decision tree2 test|	0.783877|	0.917671|	0.845513|	0.944296|	0.933635|
+
   
 
 
