@@ -72,7 +72,7 @@ _**Observations:**_
 ![image](https://github.com/Pythode7/Employee-retention-prediction/assets/98425039/3b9ba77a-d298-4a9e-81b9-d4ba3f14e8b4)  
 
 - Promotion and Retention: Few employees got promoted and those who promoted in the last five years have very low turnover, suggesting promotion is a potential factor in employee retention. These might explain why employees who have worked for 5-6 years with high satisfaction left the company.
-4. Long Hours and Departures: Employees who worked the most hours were rarely promoted and all departing employees belonged to this group. This suggests a possible link between overwork and employee dissatisfaction leading to departures.
+- Long Hours and Departures: Employees who worked the most hours were rarely promoted and all departing employees belonged to this group. This suggests a possible link between overwork and employee dissatisfaction leading to departures.
 
 #### Insights   
 Analysis reveals a correlation between longer work hours and higher departure rates. Additionally, employees who left often managed multiple projects. These observations suggest a possible risk of burnout among employees with heavy workloads. The data shows a lower turnover rate among employees with longer tenure (more than six years).   
