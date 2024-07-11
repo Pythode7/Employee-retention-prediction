@@ -113,7 +113,7 @@ The model prioritizes identifying potential churn (at-risk employees), leading t
 **Decision tree splits**   
 
 ![image](https://github.com/Pythode7/Employee-retention-prediction/assets/98425039/e2538e1e-0276-448a-a7c7-cee8cc8fa85b)   
-Splits of the decision tree model was places here for exploratory purpose. 
+Splits of the decision tree model was placed here for exploratory purpose. 
 
 
 **Decision tree feature importance** 
