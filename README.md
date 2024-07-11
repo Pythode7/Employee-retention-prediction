@@ -1,6 +1,6 @@
 # Employee-retention-prediction
 
-## Business scenario and problem
+## 1. Business scenario and problem
 
 The HR department at Salifort Motors wants to take some initiatives to improve employee satisfaction levels at the company. They collected data from employees, but now they don’t know what to do with it. They refer to you as a data analytics professional and ask you to provide data-driven suggestions based on your understanding of the data. They have the following question: what’s likely to make the employee leave the company?
 
@@ -23,7 +23,7 @@ promotion_last_5years|Whether or not the employee was promoted in the last 5 yea
 Department|The employee's department
 salary|The employee's salary (U.S. dollars)
 
-### Initial EDA and data cleaning
+### 2. Initial EDA and data cleaning
 
 - In this dataset, there are 14,999 rows, 10 columns, no missing values, and 3008 duplicates (~20% of the data). 
 - All the misspelled variable names were corrected and all column names were converted into lower case and standardized in snake_case.   
@@ -77,14 +77,14 @@ _**Observations:**_
 #### Insights   
 Analysis reveals a correlation between longer work hours and higher departure rates. Additionally, employees who left often managed multiple projects. These observations suggest a possible risk of burnout among employees with heavy workloads. The data shows a lower turnover rate among employees with longer tenure (more than six years).   
 
-### Models building and evaluatioin   
+### 3. Models building and evaluatioin   
 
 #### Logistic Regression   
-**Feature engeering and model assumption test**   
-- Encode the `salary` column as an ordinal numeric category
-- Dummy encode the `department` column
-- Remove the outliers that were identified earlier since logistic regression is quite sensitive to outliers
-- Heatmap showed no severe multicolliniearity among the selected features
+   **Feature engeering and model assumption test**   
+   - Encode the `salary` column as an ordinal numeric category
+   - Dummy encode the `department` column
+   - Remove the outliers that were identified earlier since logistic regression is quite sensitive to outliers
+   - Heatmap showed no severe multicolliniearity among the selected features
 
 #### Tree-based Models: Decision Tree, Random Forest
 - Construct a decision tree model and a random forest model and set up cross-validated grid-search to exhuastively search for the best model parameters.
@@ -127,7 +127,7 @@ _Top Features for Predicting Employee Churn:_
 - The random forest model identifies last_evaluation, number_project, tenure, and overworked as the most important features for predicting employee departures ("left").
 - These features are consistent with the decision tree model, suggesting strong agreement on the key factors influencing churn.
 
-### Summary and conclusion   
+### 4. Summary and conclusion   
 
 #### summary of model results    
 
