@@ -80,11 +80,11 @@ Analysis reveals a correlation between longer work hours and higher departure ra
 ### 3. Models building and evaluatioin   
 
 #### Logistic Regression   
-   **Feature engeering and model assumption test**   
-   - Encode the `salary` column as an ordinal numeric category
-   - Dummy encode the `department` column
-   - Remove the outliers that were identified earlier since logistic regression is quite sensitive to outliers
-   - Heatmap showed no severe multicolliniearity among the selected features
+  - **_Feature engeering and model assumption test_**   
+      - Encode the `salary` column as an ordinal numeric category
+      - Dummy encode the `department` column
+      - Remove the outliers that were identified earlier since logistic regression is quite sensitive to outliers
+      - Heatmap showed no severe multicolliniearity among the selected features
 
 #### Tree-based Models: Decision Tree, Random Forest
 - Construct a decision tree model and a random forest model and set up cross-validated grid-search to exhuastively search for the best model parameters.
