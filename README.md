@@ -100,7 +100,7 @@ Analysis reveals a correlation between longer work hours and higher departure ra
 |1|	decision tree1 test|	0.914552|	0.916949|	0.915707|	0.971978|	0.969819|
 |2|	random forest1 test|	0.964211|	0.919679|	0.941418|	0.980987|	0.956439|
 |3|	decision tree2 test|	0.783877|	0.917671|	0.845513|	0.944296|	0.933635|
-**|4|	random forest2 test|	0.870406|	0.903614|	0.886700|	0.961641|	0.938407|**
+|**4**|	**random forest2 test**|	**0.870406**|	**0.903614**|	**0.886700**|	**0.961641**|	**0.938407**|
 
 All the scores for decision tree2 and random forest2 fell as fewer features were taken into account in this round of the model. Still, the scores are very good. Finally, random forest2 was selected as the champion.
 
