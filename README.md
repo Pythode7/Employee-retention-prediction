@@ -144,20 +144,20 @@ The logistic regression model achieved high accuracy (83%) and balanced metrics 
 
 The analysis of employee departures suggests potential overwork and dissatisfaction as contributing factors. Here are actionable recommendations to improve retention:
 
-**Workload Management:**
+- **Workload Management:**
 
-- Project Limits: Implement a cap on the number of projects an employee can manage concurrently.
-- Overtime Policy: Clearly define expectations around overtime, including compensation and limitations (if applicable).
-- Work-Life Balance: Promote healthy work-life balance through clear communication and initiatives.   
+   - Project Limits: Implement a cap on the number of projects an employee can manage concurrently.
+   - Overtime Policy: Clearly define expectations around overtime, including compensation and limitations (if applicable).
+   - Work-Life Balance: Promote healthy work-life balance through clear communication and initiatives.   
 
-**Employee Engagement:**
+- **Employee Engagement:**
 
-- Tenure Review: Investigate the reasons behind dissatisfaction among four-year employees. Consider targeted incentives or career development opportunities for this group.
-- Reward Structure: Revise the reward system to value contributions and effort, not just long hours.
-- Open Communication: Foster open communication by holding company-wide and team-specific discussions about workload, expectations, and work culture.
+   - Tenure Review: Investigate the reasons behind dissatisfaction among four-year employees. Consider targeted incentives or career development opportunities for this group.
+   - Reward Structure: Revise the reward system to value contributions and effort, not just long hours.
+   - Open Communication: Foster open communication by holding company-wide and team-specific discussions about workload, expectations, and work culture.
 
-**Performance Evaluation:**   
+- **Performance Evaluation:**   
 
-- Balanced Evaluation: Ensure performance evaluations consider multiple factors beyond just work hours. Recognize valuable contributions regardless of time spent.
+   - Balanced Evaluation: Ensure performance evaluations consider multiple factors beyond just work hours. Recognize valuable contributions regardless of time spent.
 
 
