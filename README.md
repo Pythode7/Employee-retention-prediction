@@ -131,7 +131,7 @@ _Top Features for Predicting Employee Churn:_
 
 ### 4. Summary and conclusion   
 
-#### summary of model results    
+**Summary of model results**    
 
 **_Logistic Regression_**
 
