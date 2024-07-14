@@ -133,11 +133,11 @@ _Top Features for Predicting Employee Churn:_
 
 **Summary of model results**    
 
-**_Logistic Regression_**
+_Logistic Regression_
 
 The logistic regression model achieved high accuracy (83%) and balanced metrics (precision: 80%, recall: 83%, F1-score: 80%) on the test set, indicating its effectiveness in predicting employee departures.
 
-**_Tree-based Machine Learning_**
+_Tree-based Machine Learning_
 
 - _Decision Tree_: Achieved strong performance with AUC of 93.8% and balanced metrics (precision: 87.0%, recall: 90.4%, F1-score: 88.7%, accuracy: 96.2%).
 - _Random Forest_: Outperformed the decision tree model modestly, suggesting both models are effective but Random Forest might be slightly better suited for this specific task.
